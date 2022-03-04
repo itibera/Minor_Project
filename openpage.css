@@ -1,0 +1,147 @@
+.head
+{
+ background-color:rgb(22, 5, 5);
+ text-align: center;
+ /* padding: 5%; */
+ font-size: 40px;
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color:rgb(160, 24, 19);
+ border-style: dashed;
+ border-color: rgb(247, 223, 130);
+ border-width: 1.5px;
+ font-weight: bolder;
+
+}
+
+.h4
+    {
+        text-align: center;
+        color: cornflowerblue;
+    }
+
+
+
+form 
+{   
+    border: 3px solid #3f1b1b;   
+    color: rgb(213, 153, 153);
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin: 20px;
+    width: 600px;
+    margin-left: 150px;
+    }   
+
+
+.form1
+    {   
+        border: 3px solid #3f1b1b;   
+        color: rgb(213, 153, 153);
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        margin: 20px;
+        width: 900px;
+        }   
+  
+.form2
+        {   
+            border: 3px solid #3f1b1b;   
+            color: rgb(213, 153, 153);
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            margin-left:450px;
+            margin-right:200px;
+            width: 400px;
+            }     
+.form3
+            {   
+                border: 3px solid #3f1b1b;   
+                color: rgb(213, 153, 153);
+                padding: 40px;
+                text-align: left;
+                font-size: 20px;
+                margin : 50px;
+                width: 800px;
+                }     
+    
+input,select
+    {   
+        padding: 5px 5px;   
+        display: inline-block;
+        border: 1.5px solid rgb(30, 30, 37);   
+        box-sizing: border-box; 
+    }
+
+.button
+ {   
+       background-color:#d0a63d;   
+       width: 35mm;  
+       color: rgb(16, 0, 0);
+       padding: 15px;   
+       margin: 10px;  
+       cursor:pointer;  
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 15px;
+    }        
+
+.a
+{
+text-align: center;
+font-size: 18px;
+font-style: italic;
+color: rgb(153, 52, 105);
+}
+
+.button1
+ {   
+       background-color:#d0a63d;   
+       width: 35mm;  
+       color: rgb(16, 0, 0);
+       padding: 15px;   
+       margin-left: 75px; 
+       cursor:pointer;  
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 15px;
+    }        
+
+
+    .button2
+ {   
+       background-color:#d0a63d;   
+       width: 35mm;  
+       color: rgb(16, 0, 0);
+       padding: 15px;
+       margin-left: 90px;   
+       cursor:pointer;  
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 15px;
+    }        
+
+    .button3
+ {   
+       background-color:#d0a63d;   
+       width: 45mm;  
+       color: rgb(16, 0, 0);
+       padding: 15px;   
+       margin-left: 20px;  
+       cursor:pointer;  
+       font-weight: bolder;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 15px;
+    }        
+
+    .button4
+ {   
+       background-color:#d0a63d;   
+       width: 55mm;  
+       color: rgb(16, 0, 0);
+       padding: 15px;   
+       margin-left: 50px;  
+       cursor:pointer;  
+       font-weight: bolder;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 15px;
+    }        

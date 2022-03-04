@@ -1,0 +1,556 @@
+{
+    "statusCode": 200,
+    "msg": "Success",
+    "data": [
+        {
+            "name": "Iti Bera",
+            "registration_no": "30444",
+            "autonomy_roll": "1261901001",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "61",
+                    "internalMarks": "25",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "56",
+                    "internalMarks": "35",
+                    "total": "91"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "60",
+                    "internalMarks": "26",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "55",
+                    "internalMarks": "33",
+                    "total": "88"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "55",
+                    "internalMarks": "26",
+                    "total": "81"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "65",
+                    "internalMarks": "20",
+                    "total": "85"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "60",
+                    "internalMarks": "25",
+                    "total": "85"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "55",
+                    "internalMarks": "33",
+                    "total": "88"
+                }
+            ]
+        },
+        {
+            "name": "Ankita Dey",
+            "registration_no": "30445",
+            "autonomy_roll": "1261901002",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "56",
+                    "internalMarks": "25",
+                    "total": "81"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "55",
+                    "internalMarks": "30",
+                    "total": "85"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "64",
+                    "internalMarks": "27",
+                    "total": "91"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "57",
+                    "internalMarks": "35",
+                    "total": "92"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "58",
+                    "internalMarks": "28",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "64",
+                    "internalMarks": "25",
+                    "total": "89"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "55",
+                    "internalMarks": "27",
+                    "total": "82"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "54",
+                    "internalMarks": "30",
+                    "total": "84"
+                }
+            ]
+        },
+        {
+            "name": "Dronik Majumdar",
+            "registration_no": "30446",
+            "autonomy_roll": "1261901003",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "55",
+                    "internalMarks": "24",
+                    "total": "79"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "50",
+                    "internalMarks": "35",
+                    "total": "85"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "56",
+                    "internalMarks": "25",
+                    "total": "81"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "58",
+                    "internalMarks": "31",
+                    "total": "89"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "56",
+                    "internalMarks": "24",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "54",
+                    "internalMarks": "24",
+                    "total": "78"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "56",
+                    "internalMarks": "24",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "50",
+                    "internalMarks": "30",
+                    "total": "80"
+                }
+            ]
+        },
+        {
+            "name": "Oendrila Nath",
+            "registration_no": "30447",
+            "autonomy_roll": "1261901004",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "54",
+                    "internalMarks": "26",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "54",
+                    "internalMarks": "34",
+                    "total": "88"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "45",
+                    "internalMarks": "20",
+                    "total": "65"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "52",
+                    "internalMarks": "30",
+                    "total": "82"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "60",
+                    "internalMarks": "26",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "56",
+                    "internalMarks": "20",
+                    "total": "76"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "50",
+                    "internalMarks": "20",
+                    "total": "70"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "54",
+                    "internalMarks": "28",
+                    "total": "82"
+                }
+            ]
+        },
+        {
+            "name": "Tejaswari",
+            "registration_no": "30448",
+            "autonomy_roll": "1261901005",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "57",
+                    "internalMarks": "23",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "49",
+                    "internalMarks": "32",
+                    "total": "81"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "60",
+                    "internalMarks": "19",
+                    "total": "79"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "50",
+                    "internalMarks": "34",
+                    "total": "84"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "59",
+                    "internalMarks": "27",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "50",
+                    "internalMarks": "18",
+                    "total": "68"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "61",
+                    "internalMarks": "25",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "53",
+                    "internalMarks": "27",
+                    "total": "80"
+                }
+            ]
+        },
+        {
+            "name": "Kishor Mohanty",
+            "registration_no": "30449",
+            "autonomy_roll": "1261901006",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "50",
+                    "internalMarks": "24",
+                    "total": "74"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "48",
+                    "internalMarks": "39",
+                    "total": "87"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "59",
+                    "internalMarks": "2320",
+                    "total": "2379"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "45",
+                    "internalMarks": "29",
+                    "total": "74"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "45",
+                    "internalMarks": "20",
+                    "total": "65"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "62",
+                    "internalMarks": "30",
+                    "total": "92"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "51",
+                    "internalMarks": "26",
+                    "total": "77"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "57",
+                    "internalMarks": "20",
+                    "total": "77"
+                }
+            ]
+        },
+        {
+            "name": "Shreya Mandal",
+            "registration_no": "30450",
+            "autonomy_roll": "1261901007",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "62",
+                    "internalMarks": "20",
+                    "total": "82"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "43",
+                    "internalMarks": "29",
+                    "total": "72"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "52",
+                    "internalMarks": "27",
+                    "total": "79"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "49",
+                    "internalMarks": "27",
+                    "total": "76"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "51",
+                    "internalMarks": "21",
+                    "total": "72"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "60",
+                    "internalMarks": "26",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "50",
+                    "internalMarks": "22",
+                    "total": "72"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "50",
+                    "internalMarks": "29",
+                    "total": "79"
+                }
+            ]
+        },
+        {
+            "name": "Masuma Jasmine",
+            "registration_no": "30451",
+            "autonomy_roll": "1261901008",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "60",
+                    "internalMarks": "28",
+                    "total": "88"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "50",
+                    "internalMarks": "27",
+                    "total": "77"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "57",
+                    "internalMarks": "30",
+                    "total": "87"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "48",
+                    "internalMarks": "28",
+                    "total": "76"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "50",
+                    "internalMarks": "23",
+                    "total": "73"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "58",
+                    "internalMarks": "29",
+                    "total": "87"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "64",
+                    "internalMarks": "23",
+                    "total": "87"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "55",
+                    "internalMarks": "27",
+                    "total": "82"
+                }
+            ]
+        },
+        {
+            "name": "Amrita Ghosh",
+            "registration_no": "30452",
+            "autonomy_roll": "1261901009",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "56",
+                    "internalMarks": "29",
+                    "total": "85"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "51",
+                    "internalMarks": "31",
+                    "total": "82"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "50",
+                    "internalMarks": "30",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "50",
+                    "internalMarks": "30",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "60",
+                    "internalMarks": "20",
+                    "total": "80"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "65",
+                    "internalMarks": "30",
+                    "total": "95"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "59",
+                    "internalMarks": "30",
+                    "total": "89"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "50",
+                    "internalMarks": "35",
+                    "total": "85"
+                }
+            ]
+        },
+        {
+            "name": "Dipanjan Patra",
+            "registration_no": "30453",
+            "autonomy_roll": "1261901010",
+            "marks": [
+                {
+                    "paperCode": "CSEN 1201",
+                    "externalMarks": "63",
+                    "internalMarks": "30",
+                    "total": "93"
+                },
+                {
+                    "paperCode": "CSEN 1211",
+                    "externalMarks": "52",
+                    "internalMarks": "38",
+                    "total": "90"
+                },
+                {
+                    "paperCode": "ECEN 1001",
+                    "externalMarks": "50",
+                    "internalMarks": "25",
+                    "total": "75"
+                },
+                {
+                    "paperCode": "ECEN 1011",
+                    "externalMarks": "56",
+                    "internalMarks": "36",
+                    "total": "92"
+                },
+                {
+                    "paperCode": "MATH 1201",
+                    "externalMarks": "62",
+                    "internalMarks": "30",
+                    "total": "92"
+                },
+                {
+                    "paperCode": "MECH 1201",
+                    "externalMarks": "60",
+                    "internalMarks": "30",
+                    "total": "90"
+                },
+                {
+                    "paperCode": "PHYS 1001",
+                    "externalMarks": "60",
+                    "internalMarks": "26",
+                    "total": "86"
+                },
+                {
+                    "paperCode": "PHYS 1011",
+                    "externalMarks": "48",
+                    "internalMarks": "38",
+                    "total": "86"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="openpage.css">
+</head>
+
+<body class="body" background="background.jpg">
+    <div class="head">WELCOME TO ONLINE MARKS INPUT SYSTEM</div> <br>
+    <br>
+    <form>
+        <label for="paper_name"><b> Enter Paper_name :</b></label>
+        <input type="text" name="Name" size=35 maxlength=35 value="" required>
+        <br><br>
+        <label for="paper_code"><b> Enter Paper_Code :</b></label>
+        <input type="number" name="paper_code" size=35 maxlength=35 value="" required>
+        <br><br>
+        <label for="Semester"><b> Enter Semester : </b></label>
+        <input type="number" name="Semester" size=10 maxlength=15 value="" required>
+        <br><br>
+        <label for="credit"><b> Enter Credit : </b></label>
+        <input type="text" name="credit" size=10 maxlength=15 value="" required>
+        <br><br>
+        <label for="dept_code"><b>Enter dept_code :</b></label>
+        <select name="Department" id="" required>
+            <option value="">Select</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="B.Com">B.Com</option>
+            <option value="B.A">BA</option>
+            <option value="MCA">MCA</option>
+            <option value="MTech">MTech</option>
+            <option value="MSc">MSc</option>
+        </select>
+        <br> <br>
+        <label for="exam_type"><b> Enter Subject Type :</b></label>
+        <select name="type" id="" required>
+            <option value="">Select</option>
+            <option value="">Theory</option>
+            <option value="">Practical</option>
+            <option value="">Sessional</option>
+            <option value="">Project</option>
+        </select>
+        <br><br>
+        <button name="button" type="submit" value="submit" class="button1"><b>Register</b></button>
+
+        <a href="inputpage.html" class="button"><b>Go to homepage</b> </a>
+
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h4>Hello World</h4>
+    <form enctype="multipart/form-data">
+
+        <input id="upload" type=file name="files[]">
+    </form>
+
+    <textarea class="form-control" rows=35 cols=120 id="xlx_json"></textarea>
+
+    <script>
+        document.getElementById('upload').addEventListener('change', handleFileSelect, false);
+
+        function handleFileSelect(e) {
+            console.log("hello")
+            var files = e.target.files; // FileList object
+            var xl2json = new ExcelToJSON();
+            xl2json.parseExcel(files[0]);
+        }
+
+        var ExcelToJSON = function () {
+
+            this.parseExcel = function (file) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    var data = e.target.result;
+                    var workbook = XLSX.read(data, {
+                        type: 'binary'
+                    });
+
+// ================= CODE to be FOCUS from HERE =======================
+                    workbook.SheetNames.forEach(function (sheetName) {
+                        // Here is your object
+                        var unstructDataArr = XLSX.utils.sheet_to_row_object_array(workbook.Sheets["CSE"]);
+
+                        structuredDataArr = [];
+                        unstructDataArr.forEach((unstructData) => {
+                            let papers = [];
+                            let paper = {
+                                "code": "_"
+                            };
+                            for (const key in unstructData) {
+                                if (key.substring(0, 9).match(/[A-Z]{4} \d{4}/)) {
+                                    if (paper.code != key.substring(0, 9)) {
+                                        // console.log(paper);
+                                        papers.push(paper);
+                                        paper = {}
+                                        paper.code = key.substring(0, 9);
+                                    }
+                                    if (key.substring(10) == 70 || key.substring(10) == 60) {
+                                        paper["external"] = unstructData[key];
+                                    }
+                                    if (key.substring(10) == 30 || key.substring(10) == 40) {
+                                        paper["internal"] = unstructData[key];
+                                    }
+                                    if (key.substring(10) == 100) {
+                                        paper["total"] = unstructData[key];
+                                    }
+                                }
+                            }
+
+                            papers = papers.filter((paper) => paper.code !== "_");
+                            structuredData = {
+                                "name": unstructData["Name"],
+                                "registration_no": unstructData["Registration No"],
+                                "autonomy_roll_no": unstructData["Autonomy Roll No"],
+                                "papers": papers
+                            }
+
+                            structuredDataArr.push(structuredData);
+                        })
+
+                        console.log(structuredDataArr)
+                        document.querySelector('textarea').innerHTML = JSON.stringify(structuredDataArr);
+
+                    })
+
+                };
+                // ============================ Here Ends the Main Code ====================
+
+                reader.onerror = function (ex) {
+                    console.log(ex);
+                };
+
+                reader.readAsBinaryString(file);
+            };
+        };
+    </script>
+</body>
+
+</html>
